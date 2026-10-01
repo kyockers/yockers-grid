@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- The <head> element contains information used by the browser.
+Character encoding is set to UTF-8, responsove viewport display is set, 
+and the external CSS stylesheet is linked.
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kimberley Yockers — Watercolor Portfolio Grid Layout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!--
+The <body> element contains visible content for the page.
+The <header> element contains the headline content.
+The .site-header class is assigned to the <header>.
+<h1> contains the page heading, and <p> contains the page tagline.
+-->
+<body>
+  <header class="site-header">
+    <h1>Kimberley Yockers</h1>
+    <p class="tagline">Watercolor and Mixed Media Portfolio, 2026</p>
+  </header>
+
+
+<!--
+The <main> element contains the main content of the page.
+The <section> element contains the page's gallery content.
+Each <figure> contains one gallery image and is assigned the .photo class.
+A featured <figure> is assigned the .photo class and the .feature class.
+Each <figcaption> contains one image's information.
+Image source links are set using <img src=" ">, and descriptive alt text is added using <alt=" ">.
+-->
+
+  <main>
+    <section class="gallery" aria-label="Watercolor and Mixed Media Portfolio">
+
+      <figure class="photo feature">
+        <img src="images/01-featured-image-1216x800.jpg" alt="Brown duck decoy resting on blue books">
+        <figcaption>Decoy<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/02-wet-on-wet-study-forest.jpg" alt="Sparse forest of slender trees painted in soft blue tones">
+        <figcaption>Forest<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/03-still-life-skull.jpg" alt="Still life of bright green skull on a table against a bright pink background">
+        <figcaption>Skull<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/04-still-life-yellow-pepper.jpg" alt="yellow bell pepper on a soft pink background">
+        <figcaption>Lieutenant Pepper<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/05-botanical-pink-bouquet.jpg" alt="bouquet of pink hydrangea flowers">
+        <figcaption>Untitled<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/06-botanical-pink-flowers-on-white.jpg" alt="tall pink flowers growing in front of a grey fence">
+        <figcaption>Bee feast<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/07-wet-on-wet-study-seascapes.jpg" alt="Three small abstract seascapes in soft blue and green washes">
+        <figcaption>Seascapes study<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/08-still-life-studies-duck-decoy.jpg" alt="Two studies of a duck decoy painted in sepia tones">
+        <figcaption>Decoy studies<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/09-botanical-blue-flowers-on-yellow.jpg" alt="small blue flowers on a yellow-orange background">
+        <figcaption>Untitled<br>watercolor, 2026</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/10-masking-and-resist-study.jpg" alt="Green ghost, purpleand pink heart, bubbles, and colorful abstract shapes">
+        <figcaption>Masking/resist study<br>multimedia, 2026</figcaption>
+      </figure>
+    </section>
+  </main>
+
+<!-- The <footer> element contains copyright information. -->
+  <footer>&copy;2026 Kimberley Yockers</footer> 
+</body>
+
+<div><br>---------------------------------------------------------<br>
+  <p><strong>Reflection:</strong>
+  I had the most trouble working with grid-template-columns and minmax. I couldn't figure out how to get the esact result I wanted
+  without using a media query, so my layout isn't as polished as I'd like.<br>
+  I had to look up display: block; and found out that it prevents a baseline gap from showing up under non-text elements.<br>
+  <a href="https://www.deviantart.com/">Deviantart</a> uses a responsive image gallery grid.
+</div>
+
+</html>
